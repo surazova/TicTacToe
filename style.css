@@ -1,22 +1,60 @@
 td {
   width: 100px;
   height: 100px;
-  border: outset 4px;
-  border-top-color: #3a2901;
-  border-bottom-color: #3a2901;
-  border-left-color: #3a2901;
+  border: hidden 4px;
   text-align: center;
   font-size: 50px;
-  color: black;
-  background-color: #563d03;
+  color: white;
+  background-color: black;
 }
 
 td:hover {
-  background-color: #61cad8;
+  background-color: red;
   cursor: pointer;
+  color: black;
 }
+
 
 h1 {
   text-align: center;
   font-family: "Concert One", cursive;
 }
+
+.player1 {
+  text-align: center;
+  font-size: 20px;
+  font-family: "Concert One", cursive;
+}
+
+.scores {
+  font-size: 20px;
+}
+
+.player2 {
+  text-align: center;
+  font-size: 20px;
+  font-family: "Concert One", cursive;
+}
+
+/*.gameboard {
+  text-align: center;
+  margin: 100 auto;
+  width: 100%;
+  padding-top: 150px;
+  padding-left: 500px;
+  font-family: "Concert One", cursive;
+}*/
+
+.game {
+  display: inline-block;
+  font-family: "Concert One", cursive;
+}
+
+hr {
+  border-color: red;
+  width: 150px;
+  height: 3px solid;
+}
+
+.divider {
+  transform: rotate(-45deg);
