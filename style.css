@@ -40,10 +40,13 @@ h1 {
   padding-left: 100px;
 }
 
-.game {
-  display: inline-block;
+table {
   font-family: "Concert One", cursive;
-  padding-left: 680px;
+}
+
+br {
+  position: center;
+  display: block;
 }
 
 hr {
