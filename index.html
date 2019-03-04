@@ -1,33 +1,65 @@
-< !DOCTYPE html>
+<!DOCTYPE html>
 
 <html>
   <head>
     <title>Tic Tac Toe Game</title>
     <link rel="stylesheet" type="text/css" href="style.css" />
-    <!--Add google fonts here-->
+    <script rel="javascript" type="text/javascript" src="script.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css?family=Molle:400i"
+      rel="stylesheet"
+    />
   </head>
 
   <body>
-    <div style="text-align:center;margin:0 auto;width:50%;padding-top:20px;">
+    <div
+      style="text-align:center;
+              margin:100 auto;
+              width:100%;
+              padding-top:150px;
+              padding-left: 500px;
+              font-family: 'Molle', cursive;
+              
+              "
+    >
       <br />
-      <div style="float:left;">
+      <div
+        style="float:left;
+                font-size: 20px;"
+      >
         Player 1
 
-        <div style="font-size:30pt;" id="player1">
+        <div style="font-size:20px;" id="player1">
+          0
+        </div>
+      </div>
+      <table
+        id="game"
+        style="float:left;
+                            margin-left:20px;
+                            font-family: 'Molle', cursive;
+                            "
+      ></table>
+
+      <div
+        style="float:left;
+                margin-left:20px;
+                font-size: 20px;
+                font-family: 'Molle', cursive;
+                "
+      >
+        Player 2
+        <div
+          id="player2"
+          style="font-size:20px;
+                                font-family: 'Molle', cursive;
+                              "
+        >
           0
         </div>
       </div>
 
-      <table id="game" style="float:left;margin-left:20px;"></table>
-
-      <div style="float:left;margin-left:20px;">
-        Player 2
-        <div id="player2" style="font-size:30pt;">0</div>
-      </div>
-
       <div class="clear"></div>
     </div>
-
-    <script rel="javascript" type="text/javascript" src="script.js"></script>
   </body>
 </html>
